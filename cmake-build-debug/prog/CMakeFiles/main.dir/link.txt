@@ -1,1 +1,0 @@
-/usr/bin/c++  -pedantic -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor -g CMakeFiles/main.dir/main.cpp.o -o main  -lpthread ../rw_lib/librw.a -lpthread 
