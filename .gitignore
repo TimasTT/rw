@@ -548,3 +548,4 @@ venv/
 tmp/
 /.env
 /db-data
+ cmake-build-debug

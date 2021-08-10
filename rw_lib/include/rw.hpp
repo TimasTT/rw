@@ -10,13 +10,6 @@
 
 namespace rw {
 
-    int readersCount = 0;
-    int data = 0;  // data for reading/writing
-
-    std::mutex mtx;
-    std::condition_variable readersCv;
-    std::condition_variable writersCv;
-
     void read();
 
     void write();
