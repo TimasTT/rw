@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="rw"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\rw_lib\;CMake Files\prog\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/timas/rw/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/timas/rw/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/timas/rw/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rw">
+				<Option output="/home/timas/rw/cmake-build-debug/rw_lib/librw.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/timas/rw/cmake-build-debug/rw_lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/timas/rw/rw_lib/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/rw_lib/Makefile&quot;  VERBOSE=1 rw"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/rw_lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/rw_lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/rw_lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rw/fast">
+				<Option output="/home/timas/rw/cmake-build-debug/rw_lib/librw.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/timas/rw/cmake-build-debug/rw_lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/timas/rw/rw_lib/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/rw_lib/Makefile&quot;  VERBOSE=1 rw/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/rw_lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/rw_lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/rw_lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/timas/rw/cmake-build-debug/prog/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/timas/rw/cmake-build-debug/prog"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/timas/rw/rw_lib/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/prog/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/prog/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/prog/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/prog/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/timas/rw/cmake-build-debug/prog/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/timas/rw/cmake-build-debug/prog"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/timas/rw/rw_lib/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/prog/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/prog/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/prog/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/timas/rw/cmake-build-debug/prog/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/timas/rw/prog/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/timas/rw/rw_lib/include/rw.hpp">
+			<Option target="rw"/>
+		</Unit>
+		<Unit filename="/home/timas/rw/rw_lib/source/rw.cpp">
+			<Option target="rw"/>
+		</Unit>
+		<Unit filename="/home/timas/rw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/timas/rw/rw_lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\rw_lib\"/>
+		</Unit>
+		<Unit filename="/home/timas/rw/prog/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prog\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

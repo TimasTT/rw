@@ -1,0 +1,8 @@
+/home/timas/rw/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/timas/rw/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/timas/rw/cmake-build-debug/rw_lib/CMakeFiles/edit_cache.dir
+/home/timas/rw/cmake-build-debug/rw_lib/CMakeFiles/rebuild_cache.dir
+/home/timas/rw/cmake-build-debug/rw_lib/CMakeFiles/rw.dir
+/home/timas/rw/cmake-build-debug/prog/CMakeFiles/rebuild_cache.dir
+/home/timas/rw/cmake-build-debug/prog/CMakeFiles/edit_cache.dir
+/home/timas/rw/cmake-build-debug/prog/CMakeFiles/main.dir

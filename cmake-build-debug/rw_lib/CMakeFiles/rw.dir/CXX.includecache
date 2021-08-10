@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../rw_lib/include/rw.hpp
+condition_variable
+-
+mutex
+-
+
+/home/timas/rw/rw_lib/source/rw.cpp
+iostream
+-
+random
+-
+thread
+-
+rw.hpp
+/home/timas/rw/rw_lib/source/rw.hpp
+
